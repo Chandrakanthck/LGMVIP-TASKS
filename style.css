@@ -23,7 +23,7 @@ body {
 }
 
 .todo-app {
-    background: #5f81e5;
+    background: #458adf;
     border-radius: 10px;
     padding: 20px;
 }
@@ -122,8 +122,6 @@ ul li span {
 ul li span:hover {
     background: transparent;
 }
-/* Add this at the end of your CSS file */
-
 .dark-mode-toggle {
     position: absolute;
     top: 20px;
@@ -133,15 +131,11 @@ ul li span:hover {
 }
 
 .dark-mode-toggle img {
-    width: 30px; /* Adjust the width and height as needed */
+    width: 30px; 
 }
-/* Add this at the end of your CSS file, inside the "dark-mode" section */
 .dark-mode .todo-app h2 {
-    color: #00FFFF; /* Change the color to cyan (#00FFFF) or any other color you prefer */
+    color: #00FFFF; 
 }
-
-/* Add this at the end of your CSS file */
-
 .dark-mode {
     background: #111;
     color: #fff;
