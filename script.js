@@ -42,8 +42,8 @@ listcontainer.addEventListener('click', function(e){
  const body = document.body;
  
  darkModeToggle.addEventListener('click', () => {
-     body.classList.toggle('dark-mode'); // Add a class to the body to enable dark mode
-     saveDarkModeState(body.classList.contains('dark-mode')); // Save the dark mode state
+     body.classList.toggle('dark-mode'); 
+     saveDarkModeState(body.classList.contains('dark-mode')); 
  });
  
  function saveDarkModeState(isDarkMode) {
